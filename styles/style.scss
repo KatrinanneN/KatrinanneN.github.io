@@ -392,8 +392,18 @@ body {
 
 //Test scroll button ends
 
+//About me
 
+.about-me {
+    height: 400px;
+    padding: 100px;
+}
 
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
 
 
@@ -404,7 +414,7 @@ body {
 
 
 .projects-main-img {
-    background-image: url(../images/IMG-20190323-WA0008~2.jpg);
+    background-image: url(../images/Projects-main.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
