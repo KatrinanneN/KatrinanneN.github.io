@@ -109,27 +109,6 @@ body {
 
 }
 
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
-//  body
-//  {
-//    margin: 0;
-//    padding: 0;
-   
-//    /* make it look decent enough */
-// //    background: #232323;
-//    color: #cdcdcd;
-//    font-family: "Avenir Next", "Avenir", sans-serif;
-//  }
  
 
  a
@@ -142,7 +121,7 @@ body {
  
  a:hover
  {
-   color: tomato;
+   color: #659DBD;
  }
  
  #menuToggle
@@ -186,7 +165,7 @@ body {
    margin-bottom: 5px;
    position: relative;
    
-   background:  black;
+   background:black;
    border-radius: 3px;
    
    z-index: 1;
@@ -248,7 +227,7 @@ body {
    padding: 50px;
    padding-top: 125px;
    
-   background: #ededed;
+   background: rgba(240, 237, 237, 0.6);
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
@@ -560,8 +539,22 @@ input[type=checkbox] {
 .projects-p {
     text-align: center;
     width: 100%;
-    justify-content: center;
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+
+}
+
+.projects-p2 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 50px;
+    background: #cec884;
+    box-shadow: 0 5px 25px rgba(0,0,0, .3);
+    border: 4px solid white;
+
 }
 
 .project-section3 {
@@ -569,6 +562,8 @@ input[type=checkbox] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+    
     
 }
 
@@ -644,6 +639,7 @@ input[type=checkbox] {
   
   .draw-border {
     @include btn-border-drawing(rgb(165, 189, 202), #9FD3BD, 4px, bottom, right);
+    margin: 20px;
   }
   
 
@@ -682,8 +678,8 @@ input[type=checkbox] {
 .volunteer-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    padding-top: 100px;
+    width: 100%;
+    padding: 50px 0;
 }
 
 .gallery .galleryItem {
@@ -718,7 +714,7 @@ input[type=checkbox] {
 }
 
 .overlay:hover  {
-    background: rgba(0,0,0,0.8);
+    background: rgba(238, 238, 238, 0.9);
    
 }
 
@@ -736,17 +732,17 @@ input[type=checkbox] {
 .view-button {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
     font-size: 0.8rem;
 }
 
 .view-button:hover {
-    color: #9FD3BD;
+    color:#659DBD;
 }
 
-.volunteer-h5 {
+.volunteer-h5 { 
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 /*main section styles*/
@@ -886,7 +882,7 @@ form {
 .footer {
     clear: both;
     text-align: center;
-    background-color:  #1B4D59;
+    background-color:  #DAAD86;
     height: 100%;
     padding-top: 40px;
    
@@ -1217,11 +1213,15 @@ h1 {
         height: auto;
     }
 
+
+
     .project-section1, .project-section2, .project-section3 {
         padding: 0;
         flex: 1;
        
     }
+
+   
 
     .projects-main-container1, .projects-main-container2, .projects-main-container3{
         padding: 0;
@@ -1330,6 +1330,52 @@ font-family: 'Poppins', sans-serif; PARAGRAPHS
  * animation shadow-pop-tl
  * ----------------------------------------
  */
+
+ .timeline-wrapper {
+    // max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+
+ }
+
+ .timeline {
+    //  position: relative;
+    //  margin: 50px 0;
+    //  padding: 40px 0;
+    //  width: 1000px;
+        li {
+         
+            position: relative;
+            width: 50%;
+            list-style: none;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+
+ }
+
+ .timeline:before {
+     content: "";
+     position: absolute;
+     left: 50%;
+     width: 2px;
+     height: 1800px;
+     background: #659DBD;
+ }
+
+ .timeline ul li:nth-child(odd) {
+     float: left;
+     text-align: right; 
+     clear: both;
+
+ }
+
+ .timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left; 
+    clear: both;
+}
 
 
 
