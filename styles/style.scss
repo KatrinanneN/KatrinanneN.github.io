@@ -9,6 +9,9 @@ h2 {
     font-family:  'Arima Madurai', cursive;
     font-size: 2.7rem;
     letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aside-title {
@@ -451,6 +454,7 @@ input[type=checkbox] {
   
   .container2 img,  .container3 img, .container4 img {
     margin-left: 10px;
+    margin-top: 160px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
   }
@@ -459,7 +463,8 @@ input[type=checkbox] {
     transform: scale(1.7);
     cursor: zoom-out;
   }
-  
+
+ 
   .zoomLabel {
       margin: 0;
   }
@@ -482,8 +487,8 @@ input[type=checkbox] {
 
 
 .project-section1 {
-    flex: 2.5;
-    padding-top: 20px;
+    flex: 3.6;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,17 +513,24 @@ input[type=checkbox] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    // padding: 150px;
+    padding: 200px 100px;
     
 }
 
 .project1-img {
-    width: 300px;
+    width: 400px;
     display: block;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(250, 179, 179, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    box-shadow: 0 4px 8px 0 rgba(250, 179, 179, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.40)
 
+}
 
+.project4-img {
+    width: 550px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(250, 179, 179, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.40)
 
 
 }
@@ -715,6 +727,7 @@ input[type=checkbox] {
 
 .overlay:hover  {
     background: rgba(238, 238, 238, 0.9);
+  
    
 }
 
@@ -747,62 +760,62 @@ input[type=checkbox] {
 
 /*main section styles*/
 
-.prof-experience {
-    margin-bottom: 50px;
-    margin-top: 0;
-}
+// .prof-experience {
+//     margin-bottom: 50px;
+//     margin-top: 0;
+// }
 
-.main-flex-container {
-    display: flex;
-    margin: 0 20px;
-    padding-top: 50px;
+// .main-flex-container {
+//     display: flex;
+//     margin: 0 20px;
+//     padding-top: 50px;
    
-}
-.main-section {
-    width: 85%;
-    text-align: justify;
-    padding-right: 30px;
-    padding-left: 50px;
+// }
+// .main-section {
+//     width: 85%;
+//     text-align: justify;
+//     padding-right: 30px;
+//     padding-left: 50px;
    
-}
+// }
 
-.prof {
-    padding: 15px 0;
-}
+// .prof {
+//     padding: 15px 0;
+// }
 
-.aside-section {
-   width:  25%;
-   float: right;
-   border-left: 1px solid lightgrey;
-   padding-left: 20px;
-    li {
-        font-size: 0.9rem;
-    }
+// .aside-section {
+//    width:  25%;
+//    float: right;
+//    border-left: 1px solid lightgrey;
+//    padding-left: 20px;
+//     li {
+//         font-size: 0.9rem;
+//     }
     
-}
+// }
 
-h3 {
-    margin: 0;
-    line-height: 0.5px;
-}
+// h3 {
+//     margin: 0;
+//     line-height: 0.5px;
+// }
 
 
-h2 {
-    text-align: center;
-}
+// h2 {
+//     text-align: center;
+// }
 
-.company a, .interest-links {
-    text-decoration: none;
-    color:#2ACCCD;
-}
+// .company a, .interest-links {
+//     text-decoration: none;
+//     color:#2ACCCD;
+// }
 
-.company a:hover, .interest-links:hover {
-    border-bottom: 2px solid #F4A082;
-}
+// .company a:hover, .interest-links:hover {
+//     border-bottom: 2px solid #F4A082;
+// }
 
-.location {
-    float: right;
-}
+// .location {
+//     float: right;
+// }
 
 
 
@@ -1332,7 +1345,7 @@ font-family: 'Poppins', sans-serif; PARAGRAPHS
  */
 
  .timeline-wrapper {
-    max-width: 1080px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     padding: 60px 0px;
@@ -1433,6 +1446,40 @@ font-family: 'Poppins', sans-serif; PARAGRAPHS
     color: white;
     border-radius: 20px;
 
+    
+
+}
+
+.speech-bubble {
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.5em solid transparent;
+	border-right-color: rgb(39, 75, 95);
+	border-left: 0;
+	margin-top: -0.5em;
+	margin-left: -0.5em;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.5em solid transparent;
+	border-left-color: rgb(39, 75, 95);
+	border-right: 0;
+	margin-top: -0.5em;
+	margin-right: -0.5em;
 }
 
 .th3 {
