@@ -412,97 +412,102 @@ body {
 }
 
 
-.container2, .container3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
-	display: block;
+// .container2, .container3 {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     width: 60%;
+// 	display: block;
 
-}
+// }
 
 
-input[type=checkbox] {
-    display: none;
-  }
+// input[type=checkbox] {
+//     display: none;
+//   }
   
-  .container2 img,  .container3 img, .container4 img {
-    // margin-left: 10px;
-    // margin-top: 160px;
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-  }
+//   .container2 img,  .container3 img, .container4 img {
+//     // margin-left: 10px;
+//     // margin-top: 160px;
+//     transition: transform 0.25s ease;
+//     cursor: zoom-in;
+//   }
 
 
-  input[type=checkbox]:checked ~ label > img {
-    transform: scale(1.7);
-    cursor: zoom-out;
-  }
+//   input[type=checkbox]:checked ~ label > img {
+//     transform: scale(1.7);
+//     cursor: zoom-out;
+//   }
 
  
-  .zoomLabel {
-      margin: 0;
-  }
+//   .zoomLabel {
+//       margin: 0;
+//   }
 
 
-.projects-main-container1, .projects-main-container2, .projects-main-container3 {
-    display: flex;
-    padding: 30px 0px;
-}
+// .projects-main-container1, .projects-main-container2, .projects-main-container3 {
+//     display: flex;
+//     padding: 30px 0px;
+// }
 
-.projects-main-container1 {
-    // background-color: rgb(243, 241, 241);
-    height: 800px;
-}
+// .projects-main-container1 {
+//     // background-color: rgb(243, 241, 241);
+//     height: 800px;
+// }
 
-.projects-maing-container2 {
- background-color: rgb(206, 203, 203);
-}
+// .projects-maing-container2 {
+//  background-color: rgb(206, 203, 203);
+// }
 
-.projects-main-container3 {
-    // background-color: rgb(243, 241, 241);
-    height: 500px;
-}
+// .projects-main-container3 {
+//     // background-color: rgb(243, 241, 241);
+//     height: 500px;
+// }
 
 
-.project-section1 {
-    flex: 2;
-    // padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+// .project-section1 {
+//     flex: 2;
+//     // padding-top: 50px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
       
    
-}
+// }
 
-.project-section2 {
-    flex: 1;
-    margin: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+// .project-section2 {
+//     flex: 1;
+//     margin: 0;
+//     text-align: center;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
    
-}
+// }
 
-.project-section3 {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    // padding: 150px;
-    padding: 200px 100px;
+// // .project-section3 {
+// //     flex: 2;
+// //     display: flex;
+// //     flex-direction: column;
+// //     justify-content: center;
+// //     align-items: center;
+// //     // padding: 150px;
+// //     padding: 200px 100px;
     
+// // }
+
+.project1mac-img, .project2mac-img {
+    max-width: 100%;
+    // margin-left: 200px;
+    // box-shadow: 0 4px 8px 0 #e3e0cf, 0 6px 20px 0 ;
+
 }
 
 .project1-img {
-    width: 200px;
-    box-shadow: 0 4px 8px 0 #e3e0cf, 0 6px 20px 0 ;
-    margin-right: 20px;
-
+    width: 500px;
 }
+
 
 
 .project4-img {
@@ -555,15 +560,15 @@ input[type=checkbox] {
 
 // }
 
-.project-section3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+// .project-section3 {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
    
     
     
-}
+// }
 
 .reset-button {
     text-align: center;
@@ -811,8 +816,6 @@ form {
     margin: 0 80px;
     font-family: 'Poppins', sans-serif;
   }
-
- 
 
  
 
@@ -1156,7 +1159,7 @@ h1 {
 
 
 
-    .project-section1, .project-section2, .project-section3 {
+    .project-section1, .project-section2{
         padding: 0;
         flex: 1;
        
@@ -1168,7 +1171,7 @@ h1 {
         padding: 0;
     }
 
-    .project-section-1, .project-section2, .project-section3 {
+    .project-section-1, .project-section2{
         margin: 0;
     }
 
