@@ -33,6 +33,10 @@ p, li, h3, h4 {
 
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -497,17 +501,78 @@ body {
     
 // // }
 
-.project1mac-img, .project2mac-img {
+.portfolio img {
+    max-width: 100%;
+}
+
+ .project2mac-img {
     max-width: 100%;
     // margin-left: 200px;
     // box-shadow: 0 4px 8px 0 #e3e0cf, 0 6px 20px 0 ;
 
 }
 
+ul {
+    list-style-type: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#portfolio-content {
+    text-align: center;
+}
+
+
+figure {
+    display: block;
+}
+
+.portfolio {
+    margin: 0 auto;
+    z-index: 1;
+    background: #fff;
+    padding: 7.5em 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+article {
+    position: relative;
+    display: block;
+}
+
+.portfolio {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+    color: #3b3838;
+    margin-bottom: 0.83333em;
+}
+
+.info-container hr {
+    background-color: #c5c5c5;
+    width: 6%;
+    height: 0.0625em;
+    border: none;
+    margin-left: 47%;
+    margin-bottom: 1.5625em;
+}
+
+
 .project1-img {
     width: 500px;
 }
 
+
+
+.page-wrap {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1600px
+}
 
 
 .project4-img {
