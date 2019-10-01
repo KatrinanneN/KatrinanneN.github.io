@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Weight Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'
+        integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ' crossorigin='anonymous'>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <div id="background">
+        <div class="container">
+            <div class="row">
+                <div class="conversionArea">
+                    <h1 class="title">
+                        Weight Converter</h1>
+                    <section class="weightEntry">
+                        <form>
+                            <div class="form-group">
+                                <input id="lbsInput" type="number" class="formSection" placeholder="Enter weight">
+                            </div>
+                        </form>
+                        <select id="options">
+                            <!-- <option value="" disabled selected>Select unit</option> -->
+                            <option value="lbs">Pounds</option>
+                            <option value="g">Grams</option>
+                            <option value="kg">Kilograms</option>
+                            <option value="oz">Ounces</option>
+                        </select>
+                    </section>
+                    <div id="output">
+                        <div class="poundsContainer">
+                            <div class="test">
+                                <div class="lbsConversion">
+                                    <h4>Pounds:</h4>
+                                    <div id="lbsOutput"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gramsContainer">
+                            <div class="test">
+                                <div class="gramsConversion">
+                                    <h4>Grams:</h4>
+                                    <div id="gramsOutput"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kilogramsContainer">
+                            <div class="test">
+                                <div class="kilogramsConversion">
+                                    <h4>Kilograms:</h4>
+                                    <div id="kgOutput"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ouncesContainer">
+                            <div class="test">
+                                <div class="ouncesConversion">
+                                    <h4>Ounces:</h4>
+                                    <div id="ozOutput"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        // Document is ready! 
+
+    });
+
+</script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
