@@ -618,28 +618,6 @@ article {
 
 }
 
-// .projects-p2 {
-//     text-align: center;
-//     width: 100%;
-//     margin: 0;
-//     padding: 0;
-//     padding: 50px;
-//     background: #cec884;
-//     box-shadow: 0 5px 25px rgba(0,0,0, .3);
-//     border: 4px solid white;
-
-// }
-
-// .project-section3 {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-   
-    
-    
-// }
-
 .reset-button {
     text-align: center;
     padding: 5px 0;
@@ -837,10 +815,6 @@ form {
     text-align: center;
     margin-right: 700px;
 
-    // border: 1px solid black;
-    // border-radius: 10px;
-    // background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    
   }
   
   div + div {
@@ -848,9 +822,6 @@ form {
   }
   
   label {
-    // text-align: center;
-    // display: inline-block;
-    // width: 90px;
     font-family: 'Poppins', sans-serif;
 
   }
@@ -926,212 +897,6 @@ form {
 .copyright {
     color: white;
 }
-
-/*Thank you Page styles*/
-
-.thank-you-page {
-    margin: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-  
-
-}
-
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-.mainContainer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    
-    
-}
-
-
-h1 {
-	font-family: 'Arima Madurai', cursive;
-	color: black;
-	font-size: 2rem;
-	letter-spacing: 5px;
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-// .container {
-// 	z-index: 1;
-// 	position: relative;
-// 	overflow: hidden;
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// 	// min-height: 100vh;
-// 	min-height: 35rem;
-// 	background-image: linear-gradient(to bottom,  rgba(140, 151, 248, 0.6) 0%,rgba(232, 148, 243, 0.6) 100%), url('https://images.unsplash.com/photo-1446824505046-e43605ffb17f');
-// 	background-blend-mode: soft-light;
-// 	background-size: cover;
-// 	background-position: center center;
-//     padding: 10rem;
-//     height: 100vh;
-// }
-
-// .bird {
-// 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
-// 	background-size: cover;
-// 	width: 88px;
-// 	height: 125px;
-// 	will-change: background-position;
-	
-// 	animation-name: fly-cycle;
-// 	animation-timing-function: steps(10);
-// 	animation-iteration-count: infinite;
-
-// 	&--one {
-// 		animation-duration: 2s;
-// 		animation-delay: 1s;		
-// 	}
-	
-// 	&--two {
-// 		animation-duration: 0.9s;
-// 		animation-delay: -0.75s;
-// 	}
-	
-// 	&--three {
-// 		animation-duration: 1.25s;
-// 		animation-delay: -0.25s;
-// 	}
-	
-// 	&--four {
-// 		animation-duration: 1.1s;
-// 		animation-delay: -0.5s;
-// 	}
-
-// }
-
-// .bird-container {
-// 	position: absolute;
-// 	top: 20%;
-// 	left: -10%;
-// 	transform: scale(0) translateX(-10vw);
-// 	will-change: transform;
-	
-// 	animation-name: fly-right-one;
-// 	animation-timing-function: linear;
-// 	animation-iteration-count: infinite;
-	
-// 	&--one {
-// 		animation-duration: 15s;
-// 		animation-delay: 0;
-// 	}
-	
-// 	&--two {
-// 		animation-duration: 16s;
-// 		animation-delay: 1s;
-// 	}
-	
-// 	&--three {
-// 		animation-duration: 14.6s;
-// 		animation-delay: 9.5s;
-// 	}
-	
-// 	&--four {
-// 		animation-duration: 16s;
-// 		animation-delay: 10.25s;
-// 	}
-	
-// }
-
-// @keyframes fly-cycle {
-	
-// 	100% {
-// 		background-position: -900px 0;
-// 	}
-	
-// }
-
-// @keyframes fly-right-one {
-	
-// 	0% {
-// 		transform: scale(0.3) translateX(-10vw);
-// 	}
-	
-// 	10% {
-// 		transform: translateY(2vh) translateX(10vw) scale(0.4);
-// 	}
-	
-// 	20% {
-// 		transform: translateY(0vh) translateX(30vw) scale(0.5);
-// 	}
-	
-// 	30% {
-// 		transform: translateY(4vh) translateX(50vw) scale(0.6);
-// 	}
-	
-// 	40% {
-// 		transform: translateY(2vh) translateX(70vw) scale(0.6);
-// 	}
-	
-// 	50% {
-// 		transform: translateY(0vh) translateX(90vw) scale(0.6);
-// 	}
-	
-// 	60% {
-// 		transform: translateY(0vh) translateX(110vw) scale(0.6);
-// 	}
-	
-// 	100% {
-// 		transform: translateY(0vh) translateX(110vw) scale(0.6);
-// 	}
-	
-// }
-
-// @keyframes fly-right-two {
-	
-// 	0% {
-// 		transform: translateY(-2vh) translateX(-10vw) scale(0.5);
-// 	}
-	
-// 	10% {
-// 		transform: translateY(0vh) translateX(10vw) scale(0.4);
-// 	}
-	
-// 	20% {
-// 		transform: translateY(-4vh) translateX(30vw) scale(0.6);
-// 	}
-	
-// 	30% {
-// 		transform: translateY(1vh) translateX(50vw) scale(0.45);
-// 	}
-	
-// 	40% {
-// 		transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
-// 	}
-	
-// 	50% {
-// 		transform: translateY(0vh) translateX(90vw) scale(0.45);
-// 	}
-	
-// 	51% {
-// 		transform: translateY(0vh) translateX(110vw) scale(0.45);
-// 	}
-	
-// 	100% {
-// 		transform: translateY(0vh) translateX(110vw) scale(0.45);
-// 	}
-	
-// }
 
 
 
