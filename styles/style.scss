@@ -58,7 +58,7 @@ body {
 }
 
 .resume-main-img {
-    background-image: url(../images/Main-image-desktop2.jpg);
+    background-image: url(../images/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1272,7 +1272,7 @@ html {
 
 
 
-
+/*
  .timeline-wrapper {
     max-width: 1000px;
     display: flex;
@@ -1301,7 +1301,7 @@ html {
 
  }
 
-
+/*
 
  .timeline:before {
      content: "";
@@ -1327,7 +1327,7 @@ html {
     clear: both;
 }
 
-// .timeline ul li:nth-child(odd):before {
+ .timeline ul li:nth-child(odd):before {
 //     content: "";
 //     position: absolute;
 //     top: 10px;
@@ -1455,7 +1455,7 @@ html {
    
 
 }
-
+*/
 #photos {
     /* Prevent vertical gaps */
     line-height: 0;
