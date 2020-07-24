@@ -1,17 +1,54 @@
-@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
+/*
 .main-content-wrapper {
-  width: 100%;
-  height: 2000px;
+    width: 100%;
+    height: 2000px;
+  
 }
-
 .main-section {
-  width: 60%;
-  float: left;
+    width: 60%;
+    float: left;
 }
 
 .aside-section {
-  width: 40%;
-  float: left;
+    width: 40%;
+    float: left;
+}
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
+.main-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 50px;
+}
+
+.flex-item {
+  -ms-flex-negative: 2;
+      flex-shrink: 2;
+}
+
+.flex-item2 {
+  margin: 25 auto;
+}
+
+.main-section {
+  margin-right: 300px;
+}
+
+.aside-section {
+  width: 50%;
+  border-left: solid;
+  height: 40%;
+  padding-left: 20px;
+}
+
+.highlights-list {
+  text-align: justify;
 }
 
 /*General font styles*/
@@ -40,7 +77,6 @@ h2 {
 
 .aside-title {
   font-size: 1.5rem;
-  margin-top: 35px;
 }
 
 .responsive-section {
@@ -49,6 +85,10 @@ h2 {
 
 p, li, h3, h4 {
   font-family: 'Cairo', sans-serif;
+}
+
+p {
+  text-align: justify;
 }
 
 h3 {
@@ -1072,11 +1112,13 @@ h1 {
   .wrapper, .main-content-wrapper {
     width: 100%;
   }
-  .main-section {
-    width: 100%;
-    font-size: 0.8rem;
-    padding: 0;
-  }
+  /* .main-section {
+        width: 100%;
+        font-size: 0.8rem;
+        padding: 0;
+
+    }
+*/
   .aside-section {
     display: none;
     font-size: 0.5rem;

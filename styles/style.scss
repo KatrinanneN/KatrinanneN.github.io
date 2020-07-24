@@ -1,3 +1,4 @@
+/*
 .main-content-wrapper {
     width: 100%;
     height: 2000px;
@@ -12,6 +13,46 @@
     width: 40%;
     float: left;
 }
+
+*/
+
+.main-flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+
+.flex-item {
+    flex-shrink: 2;
+}
+
+.flex-item2 {
+    margin: 25 auto;   
+}
+
+.main-section {
+    margin-right: 300px;
+}
+
+.aside-section {
+    width: 50%;
+    border-left: solid ;
+    height: 40%;
+    padding-left: 20px;
+   
+}
+
+
+
+.highlights-list {
+    text-align: justify;
+}
+
+
+
+
+
 
 /*General font styles*/
 
@@ -38,7 +79,6 @@ h2 {
 
 .aside-title {
     font-size: 1.5rem;
-    margin-top: 35px;
 }
 
 .responsive-section {
@@ -48,6 +88,10 @@ h2 {
 p, li, h3, h4 {
     font-family: 'Cairo', sans-serif;
 
+}
+
+p {
+    text-align: justify;
 }
 
 h3 {
@@ -1162,13 +1206,13 @@ h1 {
         width: 100%;
     }
 
-    .main-section {
+   /* .main-section {
         width: 100%;
         font-size: 0.8rem;
         padding: 0;
 
     }
-
+*/
     .aside-section {
         display: none;
         font-size: 0.5rem;
@@ -1190,8 +1234,10 @@ h1 {
         line-height: none;
     }
 
+   
     .prof-experience {
         font-size: 1.5rem;
+
     }
 
     .skills, .highlights, .interests, .education {
