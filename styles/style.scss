@@ -56,6 +56,16 @@ html {
     height: 100vh;
     
 }
+
+.about-container {  
+    max-width: 700px;
+    height: 800px;
+    float: right;
+    padding-right: 100px;
+ }
+ 
+
+
 /*General font styles*/
 
 
@@ -111,12 +121,13 @@ body {
     justify-content: center;
 }
 
-
+/*
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
+*/
 .resume-main-img {
     background-image: url(../images/hero.png);
     background-size: cover;
@@ -459,7 +470,7 @@ body {
 }
 
 
-.intro {
+.intro, .about-sec {
     padding: 50px;
     background-color: rgba(195, 202, 202, 0.5);
 
@@ -671,6 +682,7 @@ projects-p2 {
     margin: 0;
     padding: 0;
     padding: 10px;
+    font-size: 2em;
 
 }
 

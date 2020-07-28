@@ -269,6 +269,13 @@ html {
   height: 100vh;
 }
 
+.about-container {
+  max-width: 700px;
+  height: 800px;
+  float: right;
+  padding-right: 100px;
+}
+
 /*General font styles*/
 .name, h1 {
   font-family: 'Arima Madurai', cursive;
@@ -332,14 +339,13 @@ body {
           justify-content: center;
 }
 
+/*
 .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+*/
 .resume-main-img {
   background-image: url(../images/hero.png);
   background-size: cover;
@@ -603,7 +609,7 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.intro {
+.intro, .about-sec {
   padding: 50px;
   background-color: rgba(195, 202, 202, 0.5);
 }
@@ -727,6 +733,7 @@ projects-p2 {
   margin: 0;
   padding: 0;
   padding: 10px;
+  font-size: 2em;
 }
 
 .reset-button {
