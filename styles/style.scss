@@ -168,7 +168,6 @@ body {
     text-align: center;
     padding-top: 310px;
     letter-spacing: 5px;
-    max-width: 100%;
     text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
     font-weight: 700;
 
@@ -761,7 +760,7 @@ projects-p2 {
 .volunteer-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+   
 
 }
 
@@ -975,157 +974,191 @@ h1 {
 /*Responsive Design*/
 
 
-
-
-
-@media(max-width: 565px) {
-	.flexContainer {
-		flex-direction: column;
-	}
-
-	.logo {
-		text-align: center;
-	}
-}
-
-.overlay {
-    display: none;
-}
-
-@media(max-width: 365px) {
-	.menu {
-		flex-direction: column;
-    }
-}
-
 /* Portrait tablet and small desktops */
-@media (max-width: 980px) {
-    .overlay {
-        padding: 1px;
+@media (max-width: 940px) {
+    body{
+        width: auto;
     }
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-
-    .overlay {
-        padding: 0;
-
+@media (max-width: 768px) {
+    body {
+        width: auto;
     }
 }
 
 /* Landscape phones and down */
-@media (max-width: 940px) {
-    .wrapper, .main-content-wrapper {
-        width: 100%;
+@media (max-width: 480px) {
+    body {
+        width: auto;
     }
-
-
-    .aside-section {
-        display: none;
-        font-size: 0.5rem;
-        text-align: center;
-    }
-
-    .responsive-section {
-        display: block;
-        
-    }
-
-    .name {
-        font-size: 1rem;
-    }
-
-    .title, .project-title {
-        font-size: 0.8rem;
-        margin: none;
-        line-height: none;
-    }
-
-   
-    .prof-experience {
-        font-size: 1.5rem;
-
-    }
-
-    .skills, .highlights, .interests, .education {
-        font-size: 0.8rem;
-    }
-
-  
-
-    .projects-p {
-        width: 100%;
-    }
-
-    .projects-main-container1, .projects-main-container2, .projects-main-container3 {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 10px 100px;
-        margin-bottom: 50px;
-        height: auto;
-    }
-
-
-
-    .project-section1, .project-section2{
-        padding: 0;
-        flex: 1;
-       
-    }
-
-   
-
-    .projects-main-container1, .projects-main-container2, .projects-main-container3{
-        padding: 0;
-    }
-
-    .project-section-1, .project-section2{
-        margin: 0;
-    }
-
-    .project-title {
-        margin-top: 20px;
-    }
-
-    .view-code {
-        padding: 40px;
-    }
-
-    .volunteer-main-img {
-        background-size: cover;
-    }
-
-    .galleryItem:hover .overlay {
-        display: none;
-    }
-
-    form {
-        padding-right: 0;
-    }
-
-    label {
-        font-size: 1rem;
-        // display: flex;
-        // margin-left: 170px;
-      
-    }
-
-    .contact-button {
-        margin: 0;
-        padding: 20px;
-    }
-
-    .contact-form {
-        padding-right: 20px;
-    }
-
 }
 
 
 
 
-//Highlight this section below again 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media(max-width: 565px) {
+// 	.flexContainer {
+// 		flex-direction: column;
+// 	}
+
+// 	.logo {
+// 		text-align: center;
+// 	}
+// }
+
+// .overlay {
+//     display: none;
+// }
+
+// @media(max-width: 365px) {
+// 	.menu {
+// 		flex-direction: column;
+//     }
+// }
+
+// /* Portrait tablet and small desktops */
+// @media (max-width: 980px) {
+//     .overlay {
+//         padding: 1px;
+//     }
+// }
+
+// /* Landscape phone to portrait tablet */
+// @media (max-width: 767px) {
+
+//     .overlay {
+//         padding: 0;
+
+//     }
+// }
+
+// /* Landscape phones and down */
+// @media (max-width: 940px) {
+//     .wrapper, .main-content-wrapper {
+//         width: 100%;
+//     }
+
+
+//     .aside-section {
+//         display: none;
+//         font-size: 0.5rem;
+//         text-align: center;
+//     }
+
+//     .responsive-section {
+//         display: block;
+        
+//     }
+
+//     .name {
+//         font-size: 1rem;
+//     }
+
+//     .title, .project-title {
+//         font-size: 0.8rem;
+//         margin: none;
+//         line-height: none;
+//     }
+
+   
+//     .prof-experience {
+//         font-size: 1.5rem;
+
+//     }
+
+//     .skills, .highlights, .interests, .education {
+//         font-size: 0.8rem;
+//     }
+
+  
+
+//     .projects-p {
+//         width: 100%;
+//     }
+
+//     .projects-main-container1, .projects-main-container2, .projects-main-container3 {
+//         display: flex;
+//         flex-wrap: wrap;
+//         padding: 10px 100px;
+//         margin-bottom: 50px;
+//         height: auto;
+//     }
+
+
+
+//     .project-section1, .project-section2{
+//         padding: 0;
+//         flex: 1;
+       
+//     }
+
+   
+
+//     .projects-main-container1, .projects-main-container2, .projects-main-container3{
+//         padding: 0;
+//     }
+
+//     .project-section-1, .project-section2{
+//         margin: 0;
+//     }
+
+//     .project-title {
+//         margin-top: 20px;
+//     }
+
+//     .view-code {
+//         padding: 40px;
+//     }
+
+//     .volunteer-main-img {
+//         background-size: cover;
+//     }
+
+//     .galleryItem:hover .overlay {
+//         display: none;
+//     }
+
+//     form {
+//         padding-right: 0;
+//     }
+
+//     label {
+//         font-size: 1rem;
+//         // display: flex;
+//         // margin-left: 170px;
+      
+//     }
+
+//     .contact-button {
+//         margin: 0;
+//         padding: 20px;
+//     }
+
+//     .contact-form {
+//         padding-right: 20px;
+//     }
+
+// }
+
+
+
+
+// //Highlight this section below again 
 
 
 // html {
