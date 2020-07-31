@@ -976,23 +976,20 @@ h1 {
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
-    body{
-        width: auto;
-    }
-}
+   
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-    body {
-        width: auto;
-    }
+   body {
+       margin: 0 auto;
+       background: yellow;
+   }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    body {
-        width: auto;
-    }
+   
+  
 }
 
 
