@@ -981,13 +981,61 @@ h1 {
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
    body {
-       margin: 0 auto;
-       background: yellow;
+       width: 700px;
    }
+  
+   .about-sec {
+       margin: 5px 0 55px 90px;
+   }
+
+
+   section {
+       width: 750px;
+   }
+
+   .aside-title {
+       text-align: center;
+       padding: 10px;
+
+   }
+
+   .prof-experience {
+       width: 100%;
+       text-align: center;
+   }
+
+   .resume-main-img {
+       width: 735px;
+       height: 100vh;
+       margin: 0;
+   }
+
+   .volunteer-container {
+       width: 720px;
+   }
+
+   .projects-main-img {
+       margin: 0;
+       padding: 0;
+       width: 100%;
+   }
+
+   .main-flex-container {
+     
+
+   }
+
+
+
+   
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+   
+    }
+
+   
    
   
 }

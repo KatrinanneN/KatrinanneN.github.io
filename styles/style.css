@@ -927,4 +927,44 @@ h1 {
 
 /*Responsive Design*/
 /* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  /* Landscape phone to portrait tablet */
+}
+
+@media (max-width: 940px) and (max-width: 768px) {
+  body {
+    width: 700px;
+  }
+  .about-sec {
+    margin: 5px 0 55px 90px;
+  }
+  section {
+    width: 750px;
+  }
+  .aside-title {
+    text-align: center;
+    padding: 10px;
+  }
+  .prof-experience {
+    width: 100%;
+    text-align: center;
+  }
+  .resume-main-img {
+    width: 735px;
+    height: 100vh;
+    margin: 0;
+  }
+  .volunteer-container {
+    width: 720px;
+  }
+  .projects-main-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 940px) {
+  /* Landscape phones and down */
+}
 /*# sourceMappingURL=style.css.map */
