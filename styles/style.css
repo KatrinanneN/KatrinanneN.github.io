@@ -321,11 +321,6 @@ p {
   text-align: justify;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-}
-
 .wrapper {
   max-width: 1080px;
   margin: 0 auto;
@@ -928,43 +923,36 @@ h1 {
 /*Responsive Design*/
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
-  /* Landscape phone to portrait tablet */
-}
-
-@media (max-width: 940px) and (max-width: 768px) {
-  body {
-    width: 700px;
+  .about-wrapper, .main-flex-container, .volunteer-main-img, .volunteer-wrapper, .projects-main-img, #portfolio-content {
+    max-width: 100%;
   }
-  .about-sec {
-    margin: 5px 0 55px 90px;
-  }
-  section {
-    width: 750px;
-  }
-  .aside-title {
-    text-align: center;
-    padding: 10px;
-  }
-  .prof-experience {
-    width: 100%;
-    text-align: center;
-  }
-  .resume-main-img {
-    width: 735px;
-    height: 100vh;
-    margin: 0;
-  }
-  .volunteer-container {
-    width: 720px;
-  }
-  .projects-main-img {
+  .conatct-form {
     margin: 0;
     padding: 0;
-    width: 100%;
   }
 }
 
-@media (max-width: 940px) {
-  /* Landscape phones and down */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .about-wrapper, .main-flex-container, .volunteer-main-img, .volunteer-wrapper, .projects-main-img, #portfolio-content {
+    width: 100%;
+  }
+  .conatct-form {
+    margin: 0;
+    padding: 0;
+  }
 }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .about-wrapper, .main-flex-container, .volunteer-main-img, .volunteer-wrapper, .projects-main-img, #portfolio-content {
+    max-width: 100%;
+  }
+  .conatct-form {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* feed HiDPI screens a bigger background image */
 /*# sourceMappingURL=style.css.map */
