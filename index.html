@@ -64,12 +64,19 @@
                     <a href="#home">
                         <li>Home</li>
                     </a>
-                    <a href="#projects">
-                        <li>Projects</li>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#resume">
+                        <li>Resume</li>
                     </a>
                     <a href="#volunteer">
                         <li>Volunteer</li>
                     </a>
+                    <a href="#educated">
+                        <li>Projects</li>
+                    </a>
+
                     <a href="#contact">
                         <li>Contact</li>
                     </a>
@@ -89,7 +96,7 @@
 
     <!-- Section begins -->
 
-    <section class="about-wrapper">
+    <section id="about" class="about-wrapper">
         <section class="katrina-img">
             <section class="about-container">
                 <div id="projects" class="about-sec about-flex">
@@ -414,11 +421,10 @@
     <section class="projects-main-img">
         <section class="intro-wrapper">
             <div id="projects" class="intro">
-                <h2 id="educated">Personal interest projects with <img class="hyl"
-                        src="./images/HackerYou_logo_transparent_final.png" alt="HackerYou logo"></h2>
+                <h2 id="educated">Side Projects at Juno College of Technology <img class="hyl" src="./images/Juno_logo.png_large" width="200"
+                        height="100" alt="HackerYou logo"></h2>
                 <p class="projects-p">
-                    In 6 months, I learned: responsive design, HTML5, CSS3, SASS,
-                    JavaScript + JQuery and a healthy dose of React.
+                    In 6 months, I took a Web Development course and learned: responsive design, HTML5, CSS3, SASS, JavaScript + JQuery and a healthy dose of React.
                     There were a total of 4 projects that needed to be completed.
                     Have a look.
                 </p>
@@ -436,7 +442,7 @@
             <div class="page-wrap clearfix">
 
                 <div class="info-container">
-                    <h3>PROJECT ONE</h3>
+                    <h3>PROJECT ONE: Fundamentals PSD Conversion</h3>
                     <hr>
                     <p>
                         Objective: Reproduce the design below, using HTML5 + CSS3, with a focus on Floats, border-box
@@ -472,7 +478,7 @@
             <div class="page-wrap clearfix">
 
                 <div class="info-container">
-                    <h3>PROJECT TWO</h3>
+                    <h3>PROJECT TWO: Advanced PSD Conversion</h3>
                     <hr>
                     <p>
                         Objective: Reproduce the design below, using HTML5 + CSS3, with a focus on 1 external .css file,
@@ -507,7 +513,7 @@
             <div class="page-wrap clearfix">
 
                 <div class="info-container">
-                    <h3>PROJECT THREE</h3>
+                    <h3>PROJECT THREE: Responsive Multi-Page Project</h3>
                     <hr>
                     <p class="projects-p2">
                         Objective: Create your very own multi-page site or long one-pager responsive site.
@@ -574,14 +580,7 @@
     </article><!-- Portfolio -->
 
 
-
-
-
-
-
-
-
-    <header class="contact-main-img">
+    <section class="contact-main-img">
         <section class="intro-wrapper">
             <div>
                 <h2>Say "Hi!"!</h2>
@@ -593,12 +592,13 @@
 
                     <div>
                         <label for="name">Full Name:</label>
-                        <input type="text" id="name" name="user_name">
+                        <input type="text" id="name" size="30" maxlength="100" name="user_name">
                     </div>
                     <div>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="email">
+                        <label for="name">Email:</label>
+                        <input type="email" id="email" size="30" maxlength="100" name="user_name">
                     </div>
+
                     <div>
                         <label for="msg">Message:</label>
                         <textarea id="msg" name="message"></textarea>
@@ -609,11 +609,7 @@
                 </form>
             </section>
         </section>
-    </header>
-
-    </div>
-    </div>
-    <div class="myBox"></div>
+    </section>
 
     </main>
     <!-- Main ends -->

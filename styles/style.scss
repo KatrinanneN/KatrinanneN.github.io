@@ -116,7 +116,7 @@ h2 {
     display: none;
 }
 
-p, li, h3, h2, h4 {
+p, #testText, li, h3, h2, h4 {
     font-family: 'Cairo', sans-serif;
 
 }
@@ -355,7 +355,7 @@ p {
 
 
 .intro-wrapper {
-    max-width: 900px;
+    max-width: 810px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -485,24 +485,22 @@ article {
     padding-right: 45px;
 }
 
- p, .company, .list-font, .highlights-list {
+ .company, .list-font, .highlights-list {
 font-size: 1.5em;
 }
 
-projects-p2 {
-    font-size: 4em;
 
-}
 
-.projects-p {
+p {
     width: 100%;
     margin: 0;
     padding: 0;
     padding: 10px;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     line-height: 50px;
 
 }
+
 
 .reset-button {
     text-align: center;
@@ -578,7 +576,7 @@ projects-p2 {
     }
     
     .middle {
-      transition: .5s ease;
+      transition: 0.5s ease-in;
       opacity: 0;
       position: absolute;
       top: 50%;
@@ -637,11 +635,12 @@ projects-p2 {
 
 form {
     padding: 70px 0;
-    padding-right: 70px;
+    margin: 0 auto;
     text-align: center;
-    margin-right: 700px;
-
+ 
   }
+
+
   
   div + div {
     margin-top: 10px;
@@ -656,7 +655,7 @@ form {
   input, textarea {
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
-    width: 300px;
+    width: 400px;
     border: 1px solid #999;
   }
 
@@ -685,6 +684,10 @@ form {
     font-family: 'Poppins', sans-serif;
   }
 
+
+  .contact-button {
+      margin-left: 60px;
+  }
  
 
 
