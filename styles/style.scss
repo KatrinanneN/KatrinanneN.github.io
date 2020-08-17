@@ -14,6 +14,7 @@ html {
     font-size: 62.5%;
 }
 
+//Resume section
 
 .main-flex-container {
     display: flex;
@@ -21,6 +22,9 @@ html {
     padding: 50px;
 }
 
+.prof {
+    padding: 0 0 40px 0;
+}
 
 .flex-item {
     flex-shrink: 2;
@@ -49,18 +53,12 @@ html {
 
 
 
-.highlights-list {
+.highlights-list, .highlights-list1 {
     text-align: justify;
   
 }
 
-// .katrina-img {
-//     background-image: url(../images/katrinaOriginal-img.png);
-//     background-attachment: fixed;
-//     background-repeat: no-repeat;
-//     background-size: inherit;
-//     height: 100vh;
-// }
+
 
 .katrina-img {
     background-image: url(../images/katrinaProfImg.png);
@@ -136,13 +134,7 @@ p {
     justify-content: center;
 }
 
-/*
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-*/
 .resume-main-img {
     background-image: url(../images/hero.png);
     background-size: cover;
@@ -485,7 +477,7 @@ article {
     padding-right: 45px;
 }
 
- .company, .list-font, .highlights-list {
+ .company, .list-font, .highlights-list, .highlights-list1 {
 font-size: 1.5em;
 }
 
