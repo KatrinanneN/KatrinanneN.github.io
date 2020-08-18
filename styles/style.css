@@ -624,7 +624,7 @@ article {
   margin: 0 160px;
 }
 
-.project1-img {
+.project1-img, .project1mac-img {
   max-width: 100%;
 }
 
@@ -894,5 +894,42 @@ button {
           justify-content: center;
 }
 
-/*Thank you Page styles*/
+/* Portrait tablet and small desktops */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .resume-main-img, .katrina-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  .sm, .intro {
+    padding: 0;
+  }
+  .aside-section {
+    display: none;
+  }
+  .main-flex-container {
+    padding: 0;
+  }
+  .main-section {
+    margin: 20px;
+    padding: 10px;
+  }
+  .about-sec {
+    padding: 0;
+    line-height: 2px;
+    text-align: center;
+  }
+  .prof-experience {
+    display: list-item;
+    text-align: center;
+  }
+  .hyl {
+    margin: 0;
+  }
+}
+
+/* Landscape phones and down */
 /*# sourceMappingURL=style.css.map */
