@@ -739,6 +739,7 @@ form {
         background-position:center;
     background-attachment: fixed;
     width: 100%;
+    
     }
 
     .sm, .intro {
@@ -746,16 +747,34 @@ form {
     }
 
     .aside-section {
-        display: none;
+        width: 100%;
+        border-left: none;
+       
+    
+    }
+
+    .highlights-list {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .highlights-list1 {
+        padding: 0;
     }
 
     .main-flex-container {
         padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
     }
 
     .main-section {
         margin: 20px;
         padding: 10px;
+       
     }
 
     .about-sec {
@@ -771,8 +790,34 @@ form {
     }
 
     .hyl {
-        margin: 0;
+        display: none;
     }
+
+    .about-container {
+        padding: 0 30px 30px 30px;
+        line-height: 0;
+        height: 760px;
+
+    }
+    
+    .intro {
+        padding: 40px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .projects-p {
+        text-align: center;
+    }
+
+    .social-icons {
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
 
 /* Landscape phones and down */
