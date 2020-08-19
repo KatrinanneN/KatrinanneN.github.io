@@ -733,13 +733,19 @@ form {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
+.resume-main-img {
+    background-image: url(../images/hero_alternativeFinal2.png) ;
+}
+
+
     .resume-main-img, .katrina-img {
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center;
     background-attachment: fixed;
     width: 100%;
-    
+
     }
 
 
